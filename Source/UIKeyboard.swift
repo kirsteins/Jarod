@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Jānis Kiršteins. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
-import CoreLocation
 
 public struct KeyboardInfo {
     let info: NSDictionary
@@ -49,3 +49,5 @@ public struct KeyboardInfo {
         return value.CGRectValue()
     }
 }
+    
+#endif

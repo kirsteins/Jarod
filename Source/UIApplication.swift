@@ -5,7 +5,8 @@
 //  Created by Jānis Kiršteins on 12/01/15.
 //  Copyright (c) 2015 Jānis Kiršteins. All rights reserved.
 //
-
+#if os(iOS)
+    
 import UIKit
 
 extension UIApplication {
@@ -17,3 +18,5 @@ extension UIApplication {
         return NSBundle.mainBundle().infoDictionary!["CFBundleVersion"]! as String
     }
 }
+    
+#endif
