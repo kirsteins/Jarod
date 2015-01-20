@@ -6,9 +6,50 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		18B3D8FE1A6EA30100759E04 /* BezierPathData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */; };
+		18B3D8FF1A6EA30100759E04 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EC1A6EA30100759E04 /* Color.swift */; };
+		18B3D9001A6EA30100759E04 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8ED1A6EA30100759E04 /* CoreData.swift */; };
+		18B3D9011A6EA30100759E04 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EE1A6EA30100759E04 /* Dispatch.swift */; };
+		18B3D9021A6EA30100759E04 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EF1A6EA30100759E04 /* Localization.swift */; };
+		18B3D9031A6EA30100759E04 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F01A6EA30100759E04 /* NSDate.swift */; };
+		18B3D9041A6EA30100759E04 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F11A6EA30100759E04 /* NSError.swift */; };
+		18B3D9051A6EA30100759E04 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F21A6EA30100759E04 /* NSFileManager.swift */; };
+		18B3D9061A6EA30100759E04 /* NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F31A6EA30100759E04 /* NSTimer.swift */; };
+		18B3D9071A6EA30100759E04 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F41A6EA30100759E04 /* Platform.swift */; };
+		18B3D9081A6EA30100759E04 /* Randomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F51A6EA30100759E04 /* Randomize.swift */; };
+		18B3D9091A6EA30100759E04 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F61A6EA30100759E04 /* Result.swift */; };
+		18B3D90A1A6EA30100759E04 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F71A6EA30100759E04 /* Sequence.swift */; };
+		18B3D90B1A6EA30100759E04 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F81A6EA30100759E04 /* String.swift */; };
+		18B3D90C1A6EA30100759E04 /* SynchronizedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F91A6EA30100759E04 /* SynchronizedQueue.swift */; };
+		18B3D90D1A6EA30100759E04 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FA1A6EA30100759E04 /* UIApplication.swift */; };
+		18B3D90E1A6EA30100759E04 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FB1A6EA30100759E04 /* UIDevice.swift */; };
+		18B3D90F1A6EA30100759E04 /* UIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FC1A6EA30100759E04 /* UIKeyboard.swift */; };
+		18B3D9101A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FD1A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		18B3D8CF1A6EA05E00759E04 /* Jarod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jarod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B3D8D31A6EA05E00759E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPathData.swift; path = Source/BezierPathData.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8EC1A6EA30100759E04 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Color.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8ED1A6EA30100759E04 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreData.swift; path = Source/CoreData.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8EE1A6EA30100759E04 /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatch.swift; path = Source/Dispatch.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8EF1A6EA30100759E04 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = Source/Localization.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F01A6EA30100759E04 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDate.swift; path = Source/NSDate.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F11A6EA30100759E04 /* NSError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSError.swift; path = Source/NSError.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F21A6EA30100759E04 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSFileManager.swift; path = Source/NSFileManager.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F31A6EA30100759E04 /* NSTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSTimer.swift; path = Source/NSTimer.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F41A6EA30100759E04 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = Source/Platform.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F51A6EA30100759E04 /* Randomize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Randomize.swift; path = Source/Randomize.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F61A6EA30100759E04 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F71A6EA30100759E04 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Source/Sequence.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F81A6EA30100759E04 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Source/String.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8F91A6EA30100759E04 /* SynchronizedQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SynchronizedQueue.swift; path = Source/SynchronizedQueue.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8FA1A6EA30100759E04 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIApplication.swift; path = Source/UIApplication.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8FB1A6EA30100759E04 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIDevice.swift; path = Source/UIDevice.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8FC1A6EA30100759E04 /* UIKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIKeyboard.swift; path = Source/UIKeyboard.swift; sourceTree = SOURCE_ROOT; };
+		18B3D8FD1A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefinedRuntimeAttributes.swift; path = Source/UserDefinedRuntimeAttributes.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +83,25 @@
 		18B3D8D11A6EA05E00759E04 /* Jarod */ = {
 			isa = PBXGroup;
 			children = (
+				18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */,
+				18B3D8EC1A6EA30100759E04 /* Color.swift */,
+				18B3D8ED1A6EA30100759E04 /* CoreData.swift */,
+				18B3D8EE1A6EA30100759E04 /* Dispatch.swift */,
+				18B3D8EF1A6EA30100759E04 /* Localization.swift */,
+				18B3D8F01A6EA30100759E04 /* NSDate.swift */,
+				18B3D8F11A6EA30100759E04 /* NSError.swift */,
+				18B3D8F21A6EA30100759E04 /* NSFileManager.swift */,
+				18B3D8F31A6EA30100759E04 /* NSTimer.swift */,
+				18B3D8F41A6EA30100759E04 /* Platform.swift */,
+				18B3D8F51A6EA30100759E04 /* Randomize.swift */,
+				18B3D8F61A6EA30100759E04 /* Result.swift */,
+				18B3D8F71A6EA30100759E04 /* Sequence.swift */,
+				18B3D8F81A6EA30100759E04 /* String.swift */,
+				18B3D8F91A6EA30100759E04 /* SynchronizedQueue.swift */,
+				18B3D8FA1A6EA30100759E04 /* UIApplication.swift */,
+				18B3D8FB1A6EA30100759E04 /* UIDevice.swift */,
+				18B3D8FC1A6EA30100759E04 /* UIKeyboard.swift */,
+				18B3D8FD1A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift */,
 			);
 			path = Jarod;
 			sourceTree = "<group>";
@@ -132,6 +192,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B3D90D1A6EA30100759E04 /* UIApplication.swift in Sources */,
+				18B3D90E1A6EA30100759E04 /* UIDevice.swift in Sources */,
+				18B3D9071A6EA30100759E04 /* Platform.swift in Sources */,
+				18B3D8FE1A6EA30100759E04 /* BezierPathData.swift in Sources */,
+				18B3D9021A6EA30100759E04 /* Localization.swift in Sources */,
+				18B3D9051A6EA30100759E04 /* NSFileManager.swift in Sources */,
+				18B3D90F1A6EA30100759E04 /* UIKeyboard.swift in Sources */,
+				18B3D90B1A6EA30100759E04 /* String.swift in Sources */,
+				18B3D9081A6EA30100759E04 /* Randomize.swift in Sources */,
+				18B3D9041A6EA30100759E04 /* NSError.swift in Sources */,
+				18B3D90A1A6EA30100759E04 /* Sequence.swift in Sources */,
+				18B3D9091A6EA30100759E04 /* Result.swift in Sources */,
+				18B3D9011A6EA30100759E04 /* Dispatch.swift in Sources */,
+				18B3D9001A6EA30100759E04 /* CoreData.swift in Sources */,
+				18B3D9101A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift in Sources */,
+				18B3D9031A6EA30100759E04 /* NSDate.swift in Sources */,
+				18B3D9061A6EA30100759E04 /* NSTimer.swift in Sources */,
+				18B3D8FF1A6EA30100759E04 /* Color.swift in Sources */,
+				18B3D90C1A6EA30100759E04 /* SynchronizedQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +305,7 @@
 		18B3D8E61A6EA05E00759E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -235,12 +315,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		18B3D8E71A6EA05E00759E04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
