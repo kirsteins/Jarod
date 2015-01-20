@@ -14,7 +14,6 @@
     import AppKit
 #endif
 
-
 enum BezierPathElementType: Int {
     case MoveTo
     case LineTo
