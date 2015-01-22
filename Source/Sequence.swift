@@ -16,6 +16,28 @@ public func cleanValues<T>(values: T?...) -> [T] {
     return cleanValues(values)
 }
 
+public func all<T>(values: [T], test: (T) -> Bool) -> Bool {
+    for item in values {
+        if test(item) == false {
+            return false
+        }
+    }
+    
+    return true
+}
+
+extension Array {
+    func all(test: (Element) -> Bool) -> Bool {
+        for item in self {
+            if !test(item) {
+                return false
+            }
+        }
+        
+        return true
+    }
+}
+
 public func findFirst<C : CollectionType>(domain: C, value: C.Generator.Element, criteria: (value: C.Generator.Element, element: C.Generator.Element) -> Bool) -> C.Index? {
     var locationIndex: C.Index?
     
