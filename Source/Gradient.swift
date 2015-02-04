@@ -14,7 +14,6 @@
     import Cocoa
 #endif
 
-
 public struct Gradient {
     var locations: [CGFloat] = []
     var components: [CGFloat] = []
