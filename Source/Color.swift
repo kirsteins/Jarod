@@ -10,7 +10,8 @@ import Foundation
 
 #if os(iOS)
     import UIKit
-
+    typealias Color = UIColor
+    
     extension UIColor {
         public convenience init(_ red: Int, _ green: Int, _ blue: Int) {
             self.init(red, green, blue, 1.0)
@@ -44,8 +45,8 @@ import Foundation
 #endif
 
 #if os(OSX)
-    
     import Cocoa
+    typealias Color = NSColor
     // TODO:
     
 #endif

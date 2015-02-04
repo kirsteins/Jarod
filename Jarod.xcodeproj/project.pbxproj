@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183964F11A82673400D6E78E /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F01A82673400D6E78E /* BezierPath.swift */; };
+		183964F31A82673E00D6E78E /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F21A82673E00D6E78E /* Float.swift */; };
+		183964F51A82674F00D6E78E /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F41A82674F00D6E78E /* Gradient.swift */; };
 		18B3D8FE1A6EA30100759E04 /* BezierPathData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */; };
 		18B3D8FF1A6EA30100759E04 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EC1A6EA30100759E04 /* Color.swift */; };
 		18B3D9001A6EA30100759E04 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8ED1A6EA30100759E04 /* CoreData.swift */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183964F01A82673400D6E78E /* BezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPath.swift; path = Source/BezierPath.swift; sourceTree = SOURCE_ROOT; };
+		183964F21A82673E00D6E78E /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Float.swift; path = Source/Float.swift; sourceTree = SOURCE_ROOT; };
+		183964F41A82674F00D6E78E /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Source/Gradient.swift; sourceTree = SOURCE_ROOT; };
 		18B3D8CF1A6EA05E00759E04 /* Jarod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jarod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B3D8D31A6EA05E00759E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPathData.swift; path = Source/BezierPathData.swift; sourceTree = SOURCE_ROOT; };
@@ -83,6 +89,9 @@
 		18B3D8D11A6EA05E00759E04 /* Jarod */ = {
 			isa = PBXGroup;
 			children = (
+				183964F21A82673E00D6E78E /* Float.swift */,
+				183964F01A82673400D6E78E /* BezierPath.swift */,
+				183964F41A82674F00D6E78E /* Gradient.swift */,
 				18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */,
 				18B3D8EC1A6EA30100759E04 /* Color.swift */,
 				18B3D8ED1A6EA30100759E04 /* CoreData.swift */,
@@ -193,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B3D90D1A6EA30100759E04 /* UIApplication.swift in Sources */,
+				183964F11A82673400D6E78E /* BezierPath.swift in Sources */,
 				18B3D90E1A6EA30100759E04 /* UIDevice.swift in Sources */,
 				18B3D9071A6EA30100759E04 /* Platform.swift in Sources */,
 				18B3D8FE1A6EA30100759E04 /* BezierPathData.swift in Sources */,
@@ -208,7 +218,9 @@
 				18B3D9001A6EA30100759E04 /* CoreData.swift in Sources */,
 				18B3D9101A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift in Sources */,
 				18B3D9031A6EA30100759E04 /* NSDate.swift in Sources */,
+				183964F31A82673E00D6E78E /* Float.swift in Sources */,
 				18B3D9061A6EA30100759E04 /* NSTimer.swift in Sources */,
+				183964F51A82674F00D6E78E /* Gradient.swift in Sources */,
 				18B3D8FF1A6EA30100759E04 /* Color.swift in Sources */,
 				18B3D90C1A6EA30100759E04 /* SynchronizedQueue.swift in Sources */,
 			);
