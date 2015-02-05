@@ -37,6 +37,8 @@
 		183964F41A82674F00D6E78E /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Source/Gradient.swift; sourceTree = SOURCE_ROOT; };
 		188021771A840F77005DCF02 /* Jarod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jarod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1880217A1A840F77005DCF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		188021AB1A8410CD005DCF02 /* JarodOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JarodOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188021AE1A8410CD005DCF02 /* InfoOSX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoOSX.plist; path = Source/InfoOSX.plist; sourceTree = SOURCE_ROOT; };
 		18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPathData.swift; path = Source/BezierPathData.swift; sourceTree = SOURCE_ROOT; };
 		18B3D8EC1A6EA30100759E04 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Color.swift; sourceTree = SOURCE_ROOT; };
 		18B3D8ED1A6EA30100759E04 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreData.swift; path = Source/CoreData.swift; sourceTree = SOURCE_ROOT; };
@@ -66,6 +68,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		188021A71A8410CD005DCF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				188021771A840F77005DCF02 /* Jarod.framework */,
+				188021AB1A8410CD005DCF02 /* JarodOSX.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				1880217A1A840F77005DCF02 /* Info.plist */,
+				188021AE1A8410CD005DCF02 /* InfoOSX.plist */,
 			);
 			name = "Supporting Files";
 			path = Jarod;
@@ -128,6 +139,13 @@
 
 /* Begin PBXHeadersBuildPhase section */
 		188021741A840F77005DCF02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188021A81A8410CD005DCF02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -155,6 +173,24 @@
 			productReference = 188021771A840F77005DCF02 /* Jarod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		188021AA1A8410CD005DCF02 /* JarodOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188021BE1A8410CE005DCF02 /* Build configuration list for PBXNativeTarget "JarodOSX" */;
+			buildPhases = (
+				188021A61A8410CD005DCF02 /* Sources */,
+				188021A71A8410CD005DCF02 /* Frameworks */,
+				188021A81A8410CD005DCF02 /* Headers */,
+				188021A91A8410CD005DCF02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JarodOSX;
+			productName = JarodOSX;
+			productReference = 188021AB1A8410CD005DCF02 /* JarodOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +201,9 @@
 				ORGANIZATIONNAME = "Jānis Kiršteins";
 				TargetAttributes = {
 					188021761A840F77005DCF02 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					188021AA1A8410CD005DCF02 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -182,12 +221,20 @@
 			projectRoot = "";
 			targets = (
 				188021761A840F77005DCF02 /* Jarod */,
+				188021AA1A8410CD005DCF02 /* JarodOSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		188021751A840F77005DCF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188021A91A8410CD005DCF02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,6 +273,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		188021A61A8410CD005DCF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -259,6 +313,49 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		188021BF1A8410CE005DCF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Source/InfoOSX.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		188021C01A8410CE005DCF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Source/InfoOSX.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -356,6 +453,14 @@
 			buildConfigurations = (
 				1880218B1A840F77005DCF02 /* Debug */,
 				1880218C1A840F77005DCF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		188021BE1A8410CE005DCF02 /* Build configuration list for PBXNativeTarget "JarodOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188021BF1A8410CE005DCF02 /* Debug */,
+				188021C01A8410CE005DCF02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
