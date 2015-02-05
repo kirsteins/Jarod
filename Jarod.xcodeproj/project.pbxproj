@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		183964F11A82673400D6E78E /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F01A82673400D6E78E /* BezierPath.swift */; };
-		183964F31A82673E00D6E78E /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F21A82673E00D6E78E /* Float.swift */; };
-		183964F51A82674F00D6E78E /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F41A82674F00D6E78E /* Gradient.swift */; };
-		18B3D8FE1A6EA30100759E04 /* BezierPathData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */; };
-		18B3D8FF1A6EA30100759E04 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EC1A6EA30100759E04 /* Color.swift */; };
-		18B3D9001A6EA30100759E04 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8ED1A6EA30100759E04 /* CoreData.swift */; };
-		18B3D9011A6EA30100759E04 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EE1A6EA30100759E04 /* Dispatch.swift */; };
-		18B3D9021A6EA30100759E04 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EF1A6EA30100759E04 /* Localization.swift */; };
-		18B3D9031A6EA30100759E04 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F01A6EA30100759E04 /* NSDate.swift */; };
-		18B3D9041A6EA30100759E04 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F11A6EA30100759E04 /* NSError.swift */; };
-		18B3D9051A6EA30100759E04 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F21A6EA30100759E04 /* NSFileManager.swift */; };
-		18B3D9061A6EA30100759E04 /* NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F31A6EA30100759E04 /* NSTimer.swift */; };
-		18B3D9071A6EA30100759E04 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F41A6EA30100759E04 /* Platform.swift */; };
-		18B3D9081A6EA30100759E04 /* Randomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F51A6EA30100759E04 /* Randomize.swift */; };
-		18B3D9091A6EA30100759E04 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F61A6EA30100759E04 /* Result.swift */; };
-		18B3D90A1A6EA30100759E04 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F71A6EA30100759E04 /* Sequence.swift */; };
-		18B3D90B1A6EA30100759E04 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F81A6EA30100759E04 /* String.swift */; };
-		18B3D90C1A6EA30100759E04 /* SynchronizedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F91A6EA30100759E04 /* SynchronizedQueue.swift */; };
-		18B3D90D1A6EA30100759E04 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FA1A6EA30100759E04 /* UIApplication.swift */; };
-		18B3D90E1A6EA30100759E04 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FB1A6EA30100759E04 /* UIDevice.swift */; };
-		18B3D90F1A6EA30100759E04 /* UIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FC1A6EA30100759E04 /* UIKeyboard.swift */; };
-		18B3D9101A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FD1A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift */; };
+		188021901A840FF7005DCF02 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F21A82673E00D6E78E /* Float.swift */; };
+		188021911A840FF7005DCF02 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F01A82673400D6E78E /* BezierPath.swift */; };
+		188021921A840FF7005DCF02 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183964F41A82674F00D6E78E /* Gradient.swift */; };
+		188021931A840FF7005DCF02 /* BezierPathData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */; };
+		188021941A840FF7005DCF02 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EC1A6EA30100759E04 /* Color.swift */; };
+		188021951A840FF7005DCF02 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8ED1A6EA30100759E04 /* CoreData.swift */; };
+		188021961A840FF7005DCF02 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EE1A6EA30100759E04 /* Dispatch.swift */; };
+		188021971A840FF7005DCF02 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8EF1A6EA30100759E04 /* Localization.swift */; };
+		188021981A840FF7005DCF02 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F01A6EA30100759E04 /* NSDate.swift */; };
+		188021991A840FF7005DCF02 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F11A6EA30100759E04 /* NSError.swift */; };
+		1880219A1A840FF7005DCF02 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F21A6EA30100759E04 /* NSFileManager.swift */; };
+		1880219B1A840FF7005DCF02 /* NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F31A6EA30100759E04 /* NSTimer.swift */; };
+		1880219C1A840FF7005DCF02 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F41A6EA30100759E04 /* Platform.swift */; };
+		1880219D1A840FF7005DCF02 /* Randomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F51A6EA30100759E04 /* Randomize.swift */; };
+		1880219E1A840FF7005DCF02 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F61A6EA30100759E04 /* Result.swift */; };
+		1880219F1A840FF7005DCF02 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F71A6EA30100759E04 /* Sequence.swift */; };
+		188021A01A840FF7005DCF02 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F81A6EA30100759E04 /* String.swift */; };
+		188021A11A840FF7005DCF02 /* SynchronizedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8F91A6EA30100759E04 /* SynchronizedQueue.swift */; };
+		188021A21A840FF7005DCF02 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FA1A6EA30100759E04 /* UIApplication.swift */; };
+		188021A31A840FF7005DCF02 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FB1A6EA30100759E04 /* UIDevice.swift */; };
+		188021A41A840FF7005DCF02 /* UIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FC1A6EA30100759E04 /* UIKeyboard.swift */; };
+		188021A51A840FF7005DCF02 /* UserDefinedRuntimeAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3D8FD1A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		183964F01A82673400D6E78E /* BezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPath.swift; path = Source/BezierPath.swift; sourceTree = SOURCE_ROOT; };
 		183964F21A82673E00D6E78E /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Float.swift; path = Source/Float.swift; sourceTree = SOURCE_ROOT; };
 		183964F41A82674F00D6E78E /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Source/Gradient.swift; sourceTree = SOURCE_ROOT; };
-		18B3D8CF1A6EA05E00759E04 /* Jarod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jarod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18B3D8D31A6EA05E00759E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		188021771A840F77005DCF02 /* Jarod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jarod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1880217A1A840F77005DCF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPathData.swift; path = Source/BezierPathData.swift; sourceTree = SOURCE_ROOT; };
 		18B3D8EC1A6EA30100759E04 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Color.swift; sourceTree = SOURCE_ROOT; };
 		18B3D8ED1A6EA30100759E04 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreData.swift; path = Source/CoreData.swift; sourceTree = SOURCE_ROOT; };
@@ -59,7 +59,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18B3D8CB1A6EA05E00759E04 /* Frameworks */ = {
+		188021731A840F77005DCF02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +81,7 @@
 		18B3D8D01A6EA05E00759E04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18B3D8CF1A6EA05E00759E04 /* Jarod.framework */,
+				188021771A840F77005DCF02 /* Jarod.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 		18B3D8D21A6EA05E00759E04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				18B3D8D31A6EA05E00759E04 /* Info.plist */,
+				1880217A1A840F77005DCF02 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			path = Jarod;
@@ -127,7 +127,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18B3D8CC1A6EA05E00759E04 /* Headers */ = {
+		188021741A840F77005DCF02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,14 +137,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18B3D8CE1A6EA05E00759E04 /* Jarod */ = {
+		188021761A840F77005DCF02 /* Jarod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18B3D8E51A6EA05E00759E04 /* Build configuration list for PBXNativeTarget "Jarod" */;
+			buildConfigurationList = 1880218A1A840F77005DCF02 /* Build configuration list for PBXNativeTarget "Jarod" */;
 			buildPhases = (
-				18B3D8CA1A6EA05E00759E04 /* Sources */,
-				18B3D8CB1A6EA05E00759E04 /* Frameworks */,
-				18B3D8CC1A6EA05E00759E04 /* Headers */,
-				18B3D8CD1A6EA05E00759E04 /* Resources */,
+				188021721A840F77005DCF02 /* Sources */,
+				188021731A840F77005DCF02 /* Frameworks */,
+				188021741A840F77005DCF02 /* Headers */,
+				188021751A840F77005DCF02 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,7 +152,7 @@
 			);
 			name = Jarod;
 			productName = Jarod;
-			productReference = 18B3D8CF1A6EA05E00759E04 /* Jarod.framework */;
+			productReference = 188021771A840F77005DCF02 /* Jarod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +164,7 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Jānis Kiršteins";
 				TargetAttributes = {
-					18B3D8CE1A6EA05E00759E04 = {
+					188021761A840F77005DCF02 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -181,13 +181,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18B3D8CE1A6EA05E00759E04 /* Jarod */,
+				188021761A840F77005DCF02 /* Jarod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18B3D8CD1A6EA05E00759E04 /* Resources */ = {
+		188021751A840F77005DCF02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,38 +197,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18B3D8CA1A6EA05E00759E04 /* Sources */ = {
+		188021721A840F77005DCF02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B3D90D1A6EA30100759E04 /* UIApplication.swift in Sources */,
-				183964F11A82673400D6E78E /* BezierPath.swift in Sources */,
-				18B3D90E1A6EA30100759E04 /* UIDevice.swift in Sources */,
-				18B3D9071A6EA30100759E04 /* Platform.swift in Sources */,
-				18B3D8FE1A6EA30100759E04 /* BezierPathData.swift in Sources */,
-				18B3D9021A6EA30100759E04 /* Localization.swift in Sources */,
-				18B3D9051A6EA30100759E04 /* NSFileManager.swift in Sources */,
-				18B3D90F1A6EA30100759E04 /* UIKeyboard.swift in Sources */,
-				18B3D90B1A6EA30100759E04 /* String.swift in Sources */,
-				18B3D9081A6EA30100759E04 /* Randomize.swift in Sources */,
-				18B3D9041A6EA30100759E04 /* NSError.swift in Sources */,
-				18B3D90A1A6EA30100759E04 /* Sequence.swift in Sources */,
-				18B3D9091A6EA30100759E04 /* Result.swift in Sources */,
-				18B3D9011A6EA30100759E04 /* Dispatch.swift in Sources */,
-				18B3D9001A6EA30100759E04 /* CoreData.swift in Sources */,
-				18B3D9101A6EA30100759E04 /* UserDefinedRuntimeAttributes.swift in Sources */,
-				18B3D9031A6EA30100759E04 /* NSDate.swift in Sources */,
-				183964F31A82673E00D6E78E /* Float.swift in Sources */,
-				18B3D9061A6EA30100759E04 /* NSTimer.swift in Sources */,
-				183964F51A82674F00D6E78E /* Gradient.swift in Sources */,
-				18B3D8FF1A6EA30100759E04 /* Color.swift in Sources */,
-				18B3D90C1A6EA30100759E04 /* SynchronizedQueue.swift in Sources */,
+				188021901A840FF7005DCF02 /* Float.swift in Sources */,
+				188021911A840FF7005DCF02 /* BezierPath.swift in Sources */,
+				1880219F1A840FF7005DCF02 /* Sequence.swift in Sources */,
+				188021921A840FF7005DCF02 /* Gradient.swift in Sources */,
+				1880219C1A840FF7005DCF02 /* Platform.swift in Sources */,
+				188021941A840FF7005DCF02 /* Color.swift in Sources */,
+				1880219D1A840FF7005DCF02 /* Randomize.swift in Sources */,
+				1880219E1A840FF7005DCF02 /* Result.swift in Sources */,
+				188021A21A840FF7005DCF02 /* UIApplication.swift in Sources */,
+				1880219A1A840FF7005DCF02 /* NSFileManager.swift in Sources */,
+				188021981A840FF7005DCF02 /* NSDate.swift in Sources */,
+				188021951A840FF7005DCF02 /* CoreData.swift in Sources */,
+				188021931A840FF7005DCF02 /* BezierPathData.swift in Sources */,
+				188021971A840FF7005DCF02 /* Localization.swift in Sources */,
+				188021961A840FF7005DCF02 /* Dispatch.swift in Sources */,
+				188021A31A840FF7005DCF02 /* UIDevice.swift in Sources */,
+				188021A01A840FF7005DCF02 /* String.swift in Sources */,
+				1880219B1A840FF7005DCF02 /* NSTimer.swift in Sources */,
+				188021A51A840FF7005DCF02 /* UserDefinedRuntimeAttributes.swift in Sources */,
+				188021A41A840FF7005DCF02 /* UIKeyboard.swift in Sources */,
+				188021991A840FF7005DCF02 /* NSError.swift in Sources */,
+				188021A11A840FF7005DCF02 /* SynchronizedQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1880218B1A840F77005DCF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1880218C1A840F77005DCF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		18B3D8E31A6EA05E00759E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -314,60 +348,22 @@
 			};
 			name = Release;
 		};
-		18B3D8E61A6EA05E00759E04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		18B3D8E71A6EA05E00759E04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1880218A1A840F77005DCF02 /* Build configuration list for PBXNativeTarget "Jarod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1880218B1A840F77005DCF02 /* Debug */,
+				1880218C1A840F77005DCF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		18B3D8C91A6EA05D00759E04 /* Build configuration list for PBXProject "Jarod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18B3D8E31A6EA05E00759E04 /* Debug */,
 				18B3D8E41A6EA05E00759E04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18B3D8E51A6EA05E00759E04 /* Build configuration list for PBXNativeTarget "Jarod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18B3D8E61A6EA05E00759E04 /* Debug */,
-				18B3D8E71A6EA05E00759E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
