@@ -26,30 +26,10 @@ public func all<T>(values: [T], test: (T) -> Bool) -> Bool {
     return true
 }
 
-extension Array {
-    func all(test: (Element) -> Bool) -> Bool {
-        for item in self {
-            if !test(item) {
-                return false
-            }
-        }
-        
-        return true
-    }
-}
-
-public func findFirst<C : CollectionType>(domain: C, value: C.Generator.Element, criteria: (value: C.Generator.Element, element: C.Generator.Element) -> Bool) -> C.Index? {
-    var locationIndex: C.Index?
-    
-    for domainValue in domain {
-        if locationIndex == nil {
-            locationIndex = domain.startIndex
-        } else {
-            advance(locationIndex!, 1)
-        }
-        
-        if criteria(value: value, element: domainValue) {
-            return locationIndex
+public func findFirst<T>(#value: T, inValues elements: [T], condition: (element: T) -> Bool) -> Int? {
+    for (index, element) in enumerate(elements) {
+        if condition(element: element) {
+            return index
         }
     }
     

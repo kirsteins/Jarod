@@ -12,4 +12,8 @@ extension String {
     public func toFloat() -> Float {
         return (self as NSString).floatValue
     }
+    
+    public func toDouble() -> Double {
+        return (self as NSString).doubleValue
+    }
 }
