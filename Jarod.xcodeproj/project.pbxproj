@@ -37,7 +37,7 @@
 		183964F41A82674F00D6E78E /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Source/Gradient.swift; sourceTree = SOURCE_ROOT; };
 		188021771A840F77005DCF02 /* Jarod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jarod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1880217A1A840F77005DCF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
-		188021AB1A8410CD005DCF02 /* JarodOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JarodOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188021AB1A8410CD005DCF02 /* Jarod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jarod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		188021AE1A8410CD005DCF02 /* InfoOSX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoOSX.plist; path = Source/InfoOSX.plist; sourceTree = SOURCE_ROOT; };
 		18B3D8EB1A6EA30100759E04 /* BezierPathData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPathData.swift; path = Source/BezierPathData.swift; sourceTree = SOURCE_ROOT; };
 		18B3D8EC1A6EA30100759E04 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Color.swift; sourceTree = SOURCE_ROOT; };
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				188021771A840F77005DCF02 /* Jarod.framework */,
-				188021AB1A8410CD005DCF02 /* JarodOSX.framework */,
+				188021AB1A8410CD005DCF02 /* Jarod.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			);
 			name = JarodOSX;
 			productName = JarodOSX;
-			productReference = 188021AB1A8410CD005DCF02 /* JarodOSX.framework */;
+			productReference = 188021AB1A8410CD005DCF02 /* Jarod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -335,7 +335,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_MODULE_NAME = Jarod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jarod;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -356,7 +356,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_MODULE_NAME = Jarod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jarod;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
