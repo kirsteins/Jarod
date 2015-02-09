@@ -11,6 +11,6 @@ import CoreData
 
 extension NSManagedObjectContext {
     public func insertNewObjectForEntity(named name: String) -> NSManagedObject {
-        return NSEntityDescription.insertNewObjectForEntityForName(name, inManagedObjectContext: self) as NSManagedObject
+        return NSEntityDescription.insertNewObjectForEntityForName(name, inManagedObjectContext: self) as! NSManagedObject
     }
 }

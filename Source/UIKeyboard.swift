@@ -31,21 +31,21 @@ public struct KeyboardInfo {
     }
     
     public var animationCurve: UIViewAnimationCurve {
-        let value = self.info[UIKeyboardAnimationCurveUserInfoKey] as NSNumber as Int
+        let value = self.info[UIKeyboardAnimationCurveUserInfoKey] as! NSNumber as Int
         return UIViewAnimationCurve(rawValue: value)!
     }
     
     public var animationDuration: NSTimeInterval {
-        return self.info[UIKeyboardAnimationDurationUserInfoKey] as NSNumber as NSTimeInterval
+        return self.info[UIKeyboardAnimationDurationUserInfoKey] as! NSNumber as NSTimeInterval
     }
     
     public var beginFrame: CGRect {
-        let value = self.info[UIKeyboardFrameBeginUserInfoKey] as NSValue
+        let value = self.info[UIKeyboardFrameBeginUserInfoKey] as! NSValue
         return value.CGRectValue()
     }
     
     public var endFrame: CGRect {
-        let value = self.info[UIKeyboardFrameEndUserInfoKey] as NSValue
+        let value = self.info[UIKeyboardFrameEndUserInfoKey] as! NSValue
         return value.CGRectValue()
     }
 }

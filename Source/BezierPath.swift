@@ -49,7 +49,7 @@ import Foundation
     
     extension UIBezierPath {
         public func duplicate() -> UIBezierPath {
-            return self.copy() as UIBezierPath
+            return self.copy() as! UIBezierPath
         }
     }
 #endif

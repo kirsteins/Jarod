@@ -40,7 +40,7 @@ class BezierPathElement: NSObject, NSCoding {
     
     required init(coder aDecoder: NSCoder) {
         self.type = BezierPathElementType(rawValue: Int(aDecoder.decodeIntForKey(Key.type)))!
-        self.points = aDecoder.decodeObjectForKey(Key.points) as [NSValue]
+        self.points = aDecoder.decodeObjectForKey(Key.points) as! [NSValue]
     }
     
     func encodeWithCoder(aCoder: NSCoder) {
@@ -64,7 +64,7 @@ public class BezierPathData: NSObject, NSCoding {
     override init() {}
     
     required public init(coder aDecoder: NSCoder) {
-        self.elements = aDecoder.decodeObjectForKey(Key.elements) as [BezierPathElement]
+        self.elements = aDecoder.decodeObjectForKey(Key.elements) as! [BezierPathElement]
     }
     
     public func encodeWithCoder(aCoder: NSCoder) {

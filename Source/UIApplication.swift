@@ -11,11 +11,11 @@ import UIKit
 
 extension UIApplication {
     public var versionNumber: String {
-        return NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"]! as String
+        return NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"]! as! String
     }
     
     public var bundleVersionNumber: String {
-        return NSBundle.mainBundle().infoDictionary!["CFBundleVersion"]! as String
+        return NSBundle.mainBundle().infoDictionary!["CFBundleVersion"]! as! String
     }
 }
     

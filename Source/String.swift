@@ -21,7 +21,7 @@ extension String {
     public mutating func removeSuffix(suffix: String) -> Bool {
         if self.hasSuffix(suffix) {
             var range = Range<String.Index>(
-                start: advance(self.startIndex, countElements(self) - countElements(suffix)),
+                start: advance(self.startIndex, count(self) - countElements(suffix)),
                 end: self.endIndex
             )
             
@@ -53,7 +53,7 @@ extension String {
 
 extension String {
     public mutating func capitalizeFirstLetter() {
-        self = prefix(self, 1).capitalizedString + suffix(self, countElements(self) - 1)
+        self = prefix(self, 1).capitalizedString + suffix(self, count(self) - 1)
     }
 }
 
@@ -67,7 +67,7 @@ extension String {
     public var isValidEmail: Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
         
-        var emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)!
-        return emailTest.evaluateWithObject(self)
+        var emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+       return emailTest.evaluateWithObject(self)
     }
 }
