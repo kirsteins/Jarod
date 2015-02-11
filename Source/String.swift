@@ -21,7 +21,7 @@ extension String {
     public mutating func removeSuffix(suffix: String) -> Bool {
         if self.hasSuffix(suffix) {
             var range = Range<String.Index>(
-                start: advance(self.startIndex, count(self) - countElements(suffix)),
+                start: advance(self.startIndex, count(self) - count(suffix)),
                 end: self.endIndex
             )
             
