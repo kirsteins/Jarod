@@ -17,7 +17,16 @@ extension NSFileManager {
         
         return urls.last as? NSURL
     }
-    
+
+	public class var applicationLibraryDirectory: NSURL? {
+		var urls = NSFileManager.defaultManager().URLsForDirectory(
+			.LibraryDirectory,
+			inDomains: .UserDomainMask
+		)
+
+		return urls.last as? NSURL
+	}
+
     public class func urlForFileInDocumentsDirectory(#filename: String) -> NSURL? {
         return applicationDocumentsDirectory?.URLByAppendingPathComponent(filename)
     }
@@ -25,4 +34,12 @@ extension NSFileManager {
     public class func pathForFileInDocumentsDirectory(#filename: String) -> String? {
         return applicationDocumentsDirectory?.path?.stringByAppendingPathComponent(filename)
     }
+
+	public class func urlForFileInLibraryDirectory(#filename: String) -> NSURL? {
+		return applicationLibraryDirectory?.URLByAppendingPathComponent(filename)
+	}
+
+	public class func pathForFileInLibraryDirectory(#filename: String) -> String? {
+		return applicationLibraryDirectory?.path?.stringByAppendingPathComponent(filename)
+	}
 }
