@@ -64,8 +64,34 @@
         public class var isPhone: Bool {
             return (UIDevice.currentDevice().userInterfaceIdiom == .Phone)
         }
+
+		static let screenWidth = UIScreen.mainScreen().bounds.size.width
+		static let screenHeight = UIScreen.mainScreen().bounds.size.height
+		static let screenMaxLength = max(UIDevice.screenWidth, UIDevice.screenHeight)
+		static let screenMinLength = min(UIDevice.screenWidth, UIDevice.screenHeight)
+
+		static let isIPhone4 = UIDevice.isPhone && UIDevice.screenMaxLength < 568.0
+		static let isIPhone5 = UIDevice.isPhone && UIDevice.screenMaxLength == 568.0
+		static let isIPhone6 = UIDevice.isPhone && UIDevice.screenMaxLength == 667.0
+		static let isIPhone6Plus = UIDevice.isPhone && UIDevice.screenMaxLength == 736.0
     }
-    
+
+//	struct ScreenSize
+//	{
+//		static let SCREEN_WIDTH = UIScreen.mainScreen().bounds.size.width
+//		static let SCREEN_HEIGHT = UIScreen.mainScreen().bounds.size.height
+//		static let SCREEN_MAX_LENGTH = max(ScreenSize.SCREEN_WIDTH, ScreenSize.SCREEN_HEIGHT)
+//		static let SCREEN_MIN_LENGTH = min(ScreenSize.SCREEN_WIDTH, ScreenSize.SCREEN_HEIGHT)
+//	}
+//
+//	struct DeviceType
+//	{
+//		static let IS_IPHONE_4_OR_LESS =  UIDevice.currentDevice().userInterfaceIdiom == .Phone && ScreenSize.SCREEN_MAX_LENGTH < 568.0
+//		static let IS_IPHONE_5 = UIDevice.currentDevice().userInterfaceIdiom == .Phone && ScreenSize.SCREEN_MAX_LENGTH == 568.0
+//		static let IS_IPHONE_6 = UIDevice.currentDevice().userInterfaceIdiom == .Phone && ScreenSize.SCREEN_MAX_LENGTH == 667.0
+//		static let IS_IPHONE_6P = UIDevice.currentDevice().userInterfaceIdiom == .Phone && ScreenSize.SCREEN_MAX_LENGTH == 736.0
+//	}
+
     public func iPad(closure: () -> ()) {
         if UIDevice.isPad {
             closure()
