@@ -65,15 +65,37 @@
             return (UIDevice.currentDevice().userInterfaceIdiom == .Phone)
         }
 
-		static let screenWidth = UIScreen.mainScreen().bounds.size.width
-		static let screenHeight = UIScreen.mainScreen().bounds.size.height
-		static let screenMaxLength = max(UIDevice.screenWidth, UIDevice.screenHeight)
-		static let screenMinLength = min(UIDevice.screenWidth, UIDevice.screenHeight)
+		public class var screenWidth: CGFloat {
+			return UIScreen.mainScreen().bounds.size.width
+		}
 
-		static let isIPhone4 = UIDevice.isPhone && UIDevice.screenMaxLength < 568.0
-		static let isIPhone5 = UIDevice.isPhone && UIDevice.screenMaxLength == 568.0
-		static let isIPhone6 = UIDevice.isPhone && UIDevice.screenMaxLength == 667.0
-		static let isIPhone6Plus = UIDevice.isPhone && UIDevice.screenMaxLength == 736.0
+		public class var screenHeight: CGFloat {
+			return UIScreen.mainScreen().bounds.size.height
+		}
+
+		public class var screenMaxLength: CGFloat {
+			return max(UIDevice.screenWidth, UIDevice.screenHeight)
+		}
+
+		public class var screenMinLength: CGFloat {
+			return min(UIDevice.screenWidth, UIDevice.screenHeight)
+		}
+
+		public class var isIPhone4: Bool {
+			return UIDevice.isPhone && UIDevice.screenMaxLength < 568.0
+		}
+
+		public class var isIPhone5: Bool {
+			return UIDevice.isPhone && UIDevice.screenMaxLength == 568.0
+		}
+
+		public class var isIPhone6: Bool {
+			return UIDevice.isPhone && UIDevice.screenMaxLength == 667.0
+		}
+
+		public class var isIPhone6Plus: Bool {
+			return UIDevice.isPhone && UIDevice.screenMaxLength == 736.0
+		}
     }
 
 //	struct ScreenSize
