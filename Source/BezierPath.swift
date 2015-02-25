@@ -18,7 +18,7 @@ import Foundation
                 CGColorSpaceCreateDeviceRGB(),
                 gradient.components,
                 gradient.locations,
-                UInt(gradient.locations.count)
+                gradient.locations.count
             )
             
             var ctx = UIGraphicsGetCurrentContext()
