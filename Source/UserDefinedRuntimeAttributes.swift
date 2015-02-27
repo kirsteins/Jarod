@@ -41,7 +41,9 @@ import Foundation
 
 	extension UITextView {
 		public var localizedText: String? {
-			set { self.text = newValue?.localized }
+			set {
+				self.text = newValue?.localized
+			}
 			get { return self.text }
 		}
 	}
